@@ -1,0 +1,45 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-04T06:21:22.371Z",
+        "line": 3,
+        "name": "Login to Application with Valid credentials",
+        "description": "",
+        "id": "login-to-the-application;login-to-application-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches the application",
+            "match": {
+              "location": "com.home.bdd.stepDefinition.ApplicationStepDef.user_launches_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "enters \"username\" and \"password\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login to the Application",
+    "description": "",
+    "id": "login-to-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/home/bdd/Features/Login.feature",
+    "tags": []
+  }
+]

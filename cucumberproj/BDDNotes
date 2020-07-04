@@ -1,0 +1,29 @@
+Feature files should be kept under src/test/resources
+Runner file should be kept under src/test/java
+
+The package name of the feature files and step definition should be same by default
+
+Cucumber Options
+-----------------------
+1>Dry Run
+dryRun option can either set as true or false. If it is set as true, it means that Cucumber will only
+check that every Step mentioned in the Feature File has corresponding code 
+written in Step Definition file or not.
+
+2)Strict
+Set to true. Will fail execution if there are any pending or undefined steps
+
+3)Monochrome
+This option can either set as true or false. If it is set as true, it means that the console output for the 
+Cucumber test are much more readable. And if it is set as false, then the console output is not as readable
+ as it should be. 
+ 
+4)Features
+Features Options helps Cucumber to locate the Feature file in the project folder structure. 
+
+5)Glue
+It is almost the same think as Features Option but the only difference is that it helps Cucumber to locate the 
+Step Definition file.
+
+6)Tags
+What tags in the feature file should be executed
