@@ -1,0 +1,8 @@
+=========== DataTables ===========
+Data Tables in Cucumber are quite interesting and can be used in many ways.
+DataTables are also used to handle large amounts of data
+ 
+No keyword is used to define the test data
+This works only for the single step, below which it is defined
+A separate code needs to understand the test data and then it can be run single or multiple times 
+but again just for the single step, not for the complete test

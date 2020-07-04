@@ -9,9 +9,10 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src/test/resources/"
 ,glue="com.home.bdd.stepDefinition"
 ,dryRun=false
-,monochrome=true
-,strict=false
+,monochrome=false
+,strict=true
 ,plugin={"pretty","json:target/cucumber.json","html:target/cucumber.html"}
+,tags="@C"
 )
 public class CucumberTest{
 
