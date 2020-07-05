@@ -1,0 +1,9 @@
+To launch Hub
+
+java -jar seleniumserver.jar -role hub
+
+To launch node
+java -Dwebdriver.chrome.driver="C:/Users/Madan/Desktop/Prep/Selenium/chromedriver.exe" -jar seleniumserver.jar -role node -hub http://192.168.0.106:4444/grid/register/
+
+To launch second node define the port number
+java -Dwebdriver.chrome.driver="C:/Users/Madan/Desktop/Prep/Selenium/chromedriver.exe" -jar seleniumserver.jar -role node -hub http://192.168.0.106:4444/grid/register/ -port 5585
