@@ -14,7 +14,7 @@ public class testNg {
 		
 	}
 	
-	@Test(priority=2,dependsOnMethods= {"firstTest"})
+	@Test(priority=2,dependsOnMethods= {"firstTest"} )
 	public void SecondTest() {
 		System.out.println("Running second test");
 		
