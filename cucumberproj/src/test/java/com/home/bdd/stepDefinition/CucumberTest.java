@@ -11,8 +11,10 @@ import io.cucumber.junit.CucumberOptions;
 ,dryRun=false
 ,monochrome=false
 ,strict=true
-,plugin={"pretty","json:target/cucumber.json","html:target/cucumber.html"}
-,tags="@C"
+,tags="@LaunchApp"
+,plugin={"pretty","json:target/cucumber.json"}
+//,plugin={"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+
 )
 public class CucumberTest{
 
