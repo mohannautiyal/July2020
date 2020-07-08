@@ -1,8 +1,11 @@
 package com.home.bdd.stepDefinition;
 
+import static org.testng.Assert.assertTrue;
+
 import com.home.base.actions;
 
 import io.cucumber.java.After;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
@@ -15,20 +18,32 @@ public class ApplicationStepDefs {
 		
 	}
 	
-	
-	
+		
 	@Given("user opens the application {string}")
 	public void user_opens_the_application(String url) {
-           actions.launchapplication();
-           System.out.println("Launching application...");
-          actions.getTitle();
+		 System.out.println("Launching application...");
+         boolean Status =  actions.launchapplication();
+          
+         assertTrue(Status, "Application launch failed");
+          
 	}
 
 	@Then("application home page should display {string}")
 	public void application_home_page_should_display(String text) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	   System.out.println("Verifying the page title");
+	  String PageTitle= actions.getTitle();
+      assertTrue(PageTitle.equals("Your Store"), "Appliation title incorrect");
+
 	}
+
+	
+    @And("the application navigation bar displays category {string}")
+    public void verifyNavigationbarcategory(String categoryName) {
+    	System.out.println("Verifying category "+categoryName);
+    	boolean categoryPresent =actions.verifyCategory(categoryName);
+        assertTrue(categoryPresent, categoryName +" category is not present");
+
+    }
 
 	
 	@After
