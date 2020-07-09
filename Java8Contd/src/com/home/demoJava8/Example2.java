@@ -12,6 +12,7 @@ public class Example2 {
 
 		List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 		List<Integer> evenNum = new ArrayList<Integer>();
+		
 		evenNum =numbers.stream().filter(x ->x%2 ==0).collect(Collectors.toList());
 		evenNum.forEach(System.out::println);
 
