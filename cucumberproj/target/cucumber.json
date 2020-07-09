@@ -3,17 +3,16 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-07T18:05:50.898Z",
-        "line": 4,
+        "start_timestamp": "2020-07-09T17:54:56.494Z",
+        "line": 17,
         "name": "Verify user is able to launch the application",
         "description": "",
         "id": "verify-application-launch;verify-user-is-able-to-launch-the-application",
         "after": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat com.home.bdd.stepDefinition.ApplicationStepDefs.after(ApplicationStepDefs.java:36)\r\n",
-              "duration": 1000000,
-              "status": "failed"
+              "duration": 981000000,
+              "status": "passed"
             },
             "match": {
               "location": "com.home.bdd.stepDefinition.ApplicationStepDefs.after()"
@@ -25,11 +24,10 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 84\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-73PJK31\u0027, ip: \u0027192.168.99.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x008187E3+2852835]\n\tOrdinal0 [0x00705BB1+1727409]\n\tOrdinal0 [0x005DE4B9+517305]\n\tOrdinal0 [0x00570BA0+68512]\n\tOrdinal0 [0x0056D3A0+54176]\n\tOrdinal0 [0x0058D9F7+186871]\n\tOrdinal0 [0x0058D7FD+186365]\n\tOrdinal0 [0x0058B70B+177931]\n\tOrdinal0 [0x00572584+75140]\n\tOrdinal0 [0x00573650+79440]\n\tOrdinal0 [0x005735E9+79337]\n\tOrdinal0 [0x0071AD5C+1813852]\n\tGetHandleVerifier [0x0093C616+1075574]\n\tGetHandleVerifier [0x0093C367+1074887]\n\tGetHandleVerifier [0x00947497+1120247]\n\tGetHandleVerifier [0x0093CC16+1077110]\n\tOrdinal0 [0x00713206+1782278]\n\tOrdinal0 [0x0071C3BB+1819579]\n\tOrdinal0 [0x0071C523+1819939]\n\tOrdinal0 [0x00732B45+1911621]\n\tBaseThreadInitThunk [0x74F86359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:130)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat com.home.base.actions.launchapplication(actions.java:15)\r\n\tat com.home.bdd.stepDefinition.ApplicationStepDefs.user_opens_the_application(ApplicationStepDefs.java:22)\r\n\tat ✽.user opens the application \"url\"(file:///E:/July2020/cucumberproj/src/test/resources/com/home/bdd/Features/LaunchApplication.feature:5)\r\n",
-              "duration": 4892000000,
-              "status": "failed"
+              "duration": 8346000000,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 18,
             "name": "user opens the application \"url\"",
             "match": {
               "arguments": [
@@ -44,10 +42,10 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 15000000,
+              "status": "passed"
             },
-            "line": 6,
+            "line": 19,
             "name": "application home page should display \"Your Store\"",
             "match": {
               "arguments": [
@@ -59,6 +57,41 @@
               "location": "com.home.bdd.stepDefinition.ApplicationStepDefs.application_home_page_should_display(java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Softwar category is not present expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:969)\r\n\tat org.testng.Assert.assertTrue(Assert.java:43)\r\n\tat com.home.bdd.stepDefinition.ApplicationStepDefs.lambda$0(ApplicationStepDefs.java:53)\r\n\tat java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)\r\n\tat java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)\r\n\tat com.home.bdd.stepDefinition.ApplicationStepDefs.verifyNavigationbarcategories(ApplicationStepDefs.java:50)\r\n\tat ✽.the application navigation bar displays categories(file:///E:/July2020/cucumberproj/src/test/resources/com/home/bdd/Features/LaunchApplication.feature:20)\r\n",
+              "duration": 260000000,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "the application navigation bar displays categories",
+            "match": {
+              "location": "com.home.bdd.stepDefinition.ApplicationStepDefs.verifyNavigationbarcategories(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Desktops"
+                ]
+              },
+              {
+                "cells": [
+                  "Components"
+                ]
+              },
+              {
+                "cells": [
+                  "Tablets"
+                ]
+              },
+              {
+                "cells": [
+                  "Softwar"
+                ]
+              }
+            ],
+            "keyword": "And "
           }
         ],
         "tags": [

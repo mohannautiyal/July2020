@@ -1,6 +1,6 @@
 Feature: Verify application Launch
 
-  @LaunchApp
+  @LaunchApp1
   Scenario Outline: Verify user is able to launch the application
     Given user opens the application "url"
     Then application home page should display "Your Store"
@@ -8,6 +8,16 @@ Feature: Verify application Launch
 
     Examples: 
       | Category   |
+      | Desktops   |
+      | Components |
+      | Tablets    |
+      | Softwar    |
+
+   @LaunchApp
+  Scenario: Verify user is able to launch the application
+    Given user opens the application "url"
+    Then application home page should display "Your Store"
+    And the application navigation bar displays categories
       | Desktops   |
       | Components |
       | Tablets    |

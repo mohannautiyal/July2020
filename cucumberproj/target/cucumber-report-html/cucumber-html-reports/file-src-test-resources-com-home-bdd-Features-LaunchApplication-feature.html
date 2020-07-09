@@ -76,7 +76,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Cucumber Project</td>
                           <td>1</td>
-                        <td>07 Jul 2020, 23:35</td>
+                        <td>09 Jul 2020, 23:25</td>
           </tr>
         </tbody>
       </table>
@@ -126,13 +126,13 @@ $(document).ready(function() {
                     <td >0</td>
           <td  class="failed"    >1</td>
           <td class="total">1</td>
-          <td >0</td>
+          <td      class="passed"    >2</td>
           <td      class="failed"    >1</td>
-          <td     class="skipped"   >1</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">2</td>
-          <td class="duration" data-value="4893000000">4s 893ms</td>
+          <td >0</td>
+          <td class="total">3</td>
+          <td class="duration" data-value="8621000000">8s 621ms</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -206,84 +206,15 @@ $(document).ready(function() {
   <div id="steps-2" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">user opens the application "url"</span>
   
-  <span class="lead-duration duration">4s 892ms</span>
+  <span class="lead-duration duration">8s 346ms</span>
 
   </div>
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
-          <a>Error message</a>
-      </div>
-      <div id="msg-3" class="collapse collapsable-details">
-        <pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 84
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-73PJK31', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x008187E3+2852835]
-	Ordinal0 [0x00705BB1+1727409]
-	Ordinal0 [0x005DE4B9+517305]
-	Ordinal0 [0x00570BA0+68512]
-	Ordinal0 [0x0056D3A0+54176]
-	Ordinal0 [0x0058D9F7+186871]
-	Ordinal0 [0x0058D7FD+186365]
-	Ordinal0 [0x0058B70B+177931]
-	Ordinal0 [0x00572584+75140]
-	Ordinal0 [0x00573650+79440]
-	Ordinal0 [0x005735E9+79337]
-	Ordinal0 [0x0071AD5C+1813852]
-	GetHandleVerifier [0x0093C616+1075574]
-	GetHandleVerifier [0x0093C367+1074887]
-	GetHandleVerifier [0x00947497+1120247]
-	GetHandleVerifier [0x0093CC16+1077110]
-	Ordinal0 [0x00713206+1782278]
-	Ordinal0 [0x0071C3BB+1819579]
-	Ordinal0 [0x0071C523+1819939]
-	Ordinal0 [0x00732B45+1911621]
-	BaseThreadInitThunk [0x74F86359+25]
-	RtlGetAppContainerNamedObjectPath [0x77337C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77337BF4+180]
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.home.base.actions.launchapplication(actions.java:15)
-	at com.home.bdd.stepDefinition.ApplicationStepDefs.user_opens_the_application(ApplicationStepDefs.java:22)
-	at ✽.user opens the application "url"(file:///E:/July2020/cucumberproj/src/test/resources/com/home/bdd/Features/LaunchApplication.feature:5)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -296,17 +227,72 @@ remote stacktrace: Backtrace:
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">application home page should display "Your Store"</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">015ms</span>
 
   </div>
 
         
 
 
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">And</span>
+  <span class="name">the application navigation bar displays categories</span>
+  
+  <span class="lead-duration duration">260ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Error message</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>java.lang.AssertionError: Softwar category is not present expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at com.home.bdd.stepDefinition.ApplicationStepDefs.lambda$0(ApplicationStepDefs.java:53)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at com.home.bdd.stepDefinition.ApplicationStepDefs.verifyNavigationbarcategories(ApplicationStepDefs.java:50)
+	at ✽.the application navigation bar displays categories(file:///E:/July2020/cucumberproj/src/test/resources/com/home/bdd/Features/LaunchApplication.feature:20)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>Desktops</td>
+                              </tr>
+                          <tr>
+                                  <td>Components</td>
+                              </tr>
+                          <tr>
+                                  <td>Tablets</td>
+                              </tr>
+                          <tr>
+                                  <td>Softwar</td>
+                              </tr>
+                      </table>
         
         
 
@@ -321,9 +307,9 @@ remote stacktrace: Backtrace:
 
     
   <div class="inner-level hooks-after">
-        <div data-toggle="collapse" class=" collapsable-control" data-target="#after-4">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
       
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
   
@@ -333,30 +319,17 @@ remote stacktrace: Backtrace:
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details  in ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
               <div class="hook">
-          <div class="brief failed">
+          <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">com.home.bdd.stepDefinition.ApplicationStepDefs.after()</span>
                         
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">981ms</span>
 
           </div>
 
                       
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-5">
-          <a>Error message</a>
-      </div>
-      <div id="msg-5" class="collapse collapsable-details">
-        <pre>java.lang.NullPointerException
-	at com.home.bdd.stepDefinition.ApplicationStepDefs.after(ApplicationStepDefs.java:36)
-</pre>
-      </div>
-    </div>
-  </div>
 
           
           
