@@ -25,6 +25,11 @@ public class Student {
 	public void setAge(int age) {
 		Age = age;
 	}
+	@Override
+	public String toString() {
+		return "Student [StudentName=" + StudentName + ", Age=" + Age + "]";
+	}
+	
 	
 	
 }
