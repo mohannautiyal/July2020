@@ -1,6 +1,7 @@
 To launch Hub
 
 java -jar seleniumserver.jar -role hub
+http://localhost:4444/grid/console
 
 To launch node
 java -Dwebdriver.chrome.driver="C:/Users/Madan/Desktop/Prep/Selenium/chromedriver.exe" -jar seleniumserver.jar -role node -hub http://192.168.0.106:4444/grid/register/
