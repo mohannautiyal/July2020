@@ -26,9 +26,21 @@ public class seleniumIdentifiers {
 		 
 		// driver.findElement(By.xpath("//span[@class='rightArrow pushRight']")).click();
 		 
-		 WebElement element = driver.findElement(By.cssSelector(".rightArrow.pushRight"));
-		 System.out.println(element.getAttribute("Class"));
-		 element.click();
+		 
+		 driver.findElement(By.cssSelector(".loginModal")).click();
+		 
+		 
+		/*
+		 * WebElement element =
+		 * driver.findElement(By.cssSelector(".rightArrow.pushRight"));
+		 * System.out.println(element.getAttribute("Class")); element.click();
+		 */
+		 
+		 driver.findElement(By.cssSelector("#fromCity")).click();
+		 
+		 driver.findElement(By.cssSelector(".react-autosuggest__input")).sendKeys("Bangkok");
+		 Thread.sleep(2000);
+		 driver.findElement(By.cssSelector(".makeFlex hrtlCenter+div")).click();
          Thread.sleep(5000);
 		 driver.quit();
 		 

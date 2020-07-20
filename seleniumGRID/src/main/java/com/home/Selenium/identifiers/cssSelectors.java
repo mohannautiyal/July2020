@@ -32,6 +32,9 @@ public class cssSelectors {
 		
 		driver.findElement(By.cssSelector("#firstName")).sendKeys("Testing");
 		driver.findElement(By.cssSelector("input[id*='last']")).sendKeys("LastName");
+		
+		// first of type
+		driver.findElement(By.cssSelector(".rounded.form-control.bzm-input>input:first-of-type")).sendKeys("fistoftype");
 		Thread.sleep(5000);;
 		driver.quit();
 		 
