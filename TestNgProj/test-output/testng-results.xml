@@ -1,39 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="154" started-at="2020-07-07T22:29:00 IST" finished-at="2020-07-07T22:29:00 IST">
+  <suite name="Default suite" duration-ms="63" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="154" started-at="2020-07-07T22:29:00 IST" finished-at="2020-07-07T22:29:00 IST">
-      <class name="com.home.testNg">
-        <test-method status="PASS" signature="firstTest()[pri:1, instance:com.home.testNg@a67c67e]" name="firstTest" duration-ms="30" started-at="2020-07-07T22:29:00 IST" finished-at="2020-07-07T22:29:00 IST">
+    <test name="Default test" duration-ms="63" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
+      <class name="com.home.TestNGBasics">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.home.TestNGBasics@3632be31]" name="beforeSuite" is-config="true" duration-ms="17" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-        <test-method status="PASS" signature="SecondTest(org.testng.ITestContext)[pri:2, instance:com.home.testNg@a67c67e]" name="SecondTest" duration-ms="3" started-at="2020-07-07T22:29:00 IST" depends-on-methods="com.home.testNg.firstTest" finished-at="2020-07-07T22:29:00 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@612fc6eb]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.home.TestNGBasics@3632be31]" name="BeforeTest" is-config="true" duration-ms="0" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SecondTest -->
-        <test-method status="PASS" signature="ThirdTest(org.testng.ITestContext)[pri:3, instance:com.home.testNg@a67c67e]" name="ThirdTest" duration-ms="4" started-at="2020-07-07T22:29:00 IST" finished-at="2020-07-07T22:29:00 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@612fc6eb]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.home.TestNGBasics@3632be31]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ThirdTest -->
-      </class> <!-- com.home.testNg -->
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.home.TestNGBasics@3632be31]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TestNo1()[pri:0, instance:com.home.TestNGBasics@3632be31]" name="TestNo1" duration-ms="8" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNo1 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.home.TestNGBasics@3632be31]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.home.TestNGBasics@3632be31]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TestNo2()[pri:0, instance:com.home.TestNGBasics@3632be31]" name="TestNo2" duration-ms="2" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNo2 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.home.TestNGBasics@3632be31]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.home.TestNGBasics@3632be31]" name="AfterClass" is-config="true" duration-ms="1" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.home.TestNGBasics@3632be31]" name="AfterTest" is-config="true" duration-ms="0" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="Aftersuite()[pri:0, instance:com.home.TestNGBasics@3632be31]" name="Aftersuite" is-config="true" duration-ms="0" started-at="2020-07-25T11:46:16 IST" finished-at="2020-07-25T11:46:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftersuite -->
+      </class> <!-- com.home.TestNGBasics -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

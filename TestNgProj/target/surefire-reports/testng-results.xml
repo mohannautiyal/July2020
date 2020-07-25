@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="63" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="63" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+      <class name="com.home.TestNGBasics">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.home.TestNGBasics@d2cc05a]" name="beforeSuite" is-config="true" duration-ms="17" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.home.TestNGBasics@d2cc05a]" name="BeforeTest" is-config="true" duration-ms="0" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.home.TestNGBasics@d2cc05a]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.home.TestNGBasics@d2cc05a]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TestNo1()[pri:0, instance:com.home.TestNGBasics@d2cc05a]" name="TestNo1" duration-ms="1" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNo1 -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.home.TestNGBasics@d2cc05a]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="TestNo2()[pri:0, instance:com.home.TestNGBasics@d2cc05a]" name="TestNo2" duration-ms="1" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNo2 -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.home.TestNGBasics@d2cc05a]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.home.TestNGBasics@d2cc05a]" name="AfterMethod" is-config="true" duration-ms="2" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.home.TestNGBasics@d2cc05a]" name="AfterClass" is-config="true" duration-ms="1" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.home.TestNGBasics@d2cc05a]" name="AfterTest" is-config="true" duration-ms="0" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="Aftersuite()[pri:0, instance:com.home.TestNGBasics@d2cc05a]" name="Aftersuite" is-config="true" duration-ms="1" started-at="2020-07-25T11:57:04 IST" finished-at="2020-07-25T11:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftersuite -->
+      </class> <!-- com.home.TestNGBasics -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
