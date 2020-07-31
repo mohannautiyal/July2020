@@ -1,47 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNG Revisit" duration-ms="102" started-at="2020-07-26T22:24:56 IST" finished-at="2020-07-26T22:24:56 IST">
+  <suite name="Default suite" duration-ms="86" started-at="2020-07-31T23:05:00 IST" finished-at="2020-07-31T23:05:00 IST">
     <groups>
-      <group name="A">
-        <method signature="TestNGBasics2.TestCase1()[pri:1, instance:com.home.TestNGBasics2@3327bd23]" name="TestCase1" class="com.home.TestNGBasics2"/>
-        <method signature="TestNGBasics2.TestCase3()[pri:3, instance:com.home.TestNGBasics2@3327bd23]" name="TestCase3" class="com.home.TestNGBasics2"/>
-      </group> <!-- A -->
-      <group name="B">
-        <method signature="TestNGBasics2.TestCase02()[pri:2, instance:com.home.TestNGBasics2@3327bd23]" name="TestCase02" class="com.home.TestNGBasics2"/>
-        <method signature="TestNGBasics2.TestCase4()[pri:4, instance:com.home.TestNGBasics2@3327bd23]" name="TestCase4" class="com.home.TestNGBasics2"/>
-      </group> <!-- B -->
     </groups>
-    <test name="Test NG Tests" duration-ms="102" started-at="2020-07-26T22:24:56 IST" finished-at="2020-07-26T22:24:56 IST">
-      <class name="com.home.TestNGBasics3">
-        <test-method status="PASS" signature="Login()[pri:1, instance:com.home.TestNGBasics3@4e1d422d]" name="Login" duration-ms="5" started-at="2020-07-26T22:24:56 IST" finished-at="2020-07-26T22:24:56 IST">
+    <test name="Default test" duration-ms="86" started-at="2020-07-31T23:05:00 IST" finished-at="2020-07-31T23:05:00 IST">
+      <class name="com.home.TestNgDataProvider">
+        <test-method status="PASS" signature="TestRunWithData(java.lang.String, java.lang.String)[pri:0, instance:com.home.TestNgDataProvider@a67c67e]" name="TestRunWithData" duration-ms="10" started-at="2020-07-31T23:05:00 IST" data-provider="getData" finished-at="2020-07-31T23:05:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Madan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="CheckHomePage()[pri:2, instance:com.home.TestNGBasics3@4e1d422d]" name="CheckHomePage" duration-ms="2" started-at="2020-07-26T22:24:56 IST" depends-on-methods="com.home.TestNGBasics3.Login" finished-at="2020-07-26T22:24:56 IST">
+        </test-method> <!-- TestRunWithData -->
+        <test-method status="PASS" signature="TestRunWithData(java.lang.String, java.lang.String)[pri:0, instance:com.home.TestNgDataProvider@a67c67e]" name="TestRunWithData" duration-ms="2" started-at="2020-07-31T23:05:00 IST" data-provider="getData" finished-at="2020-07-31T23:05:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[453]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckHomePage -->
-      </class> <!-- com.home.TestNGBasics3 -->
-      <class name="com.home.TestNGBasics2">
-        <test-method status="PASS" signature="TestCase1()[pri:1, instance:com.home.TestNGBasics2@3327bd23]" name="TestCase1" duration-ms="13" started-at="2020-07-26T22:24:56 IST" finished-at="2020-07-26T22:24:56 IST">
+        </test-method> <!-- TestRunWithData -->
+        <test-method status="PASS" signature="TestRunWithDataFromDiffClass(java.lang.String, java.lang.String)[pri:0, instance:com.home.TestNgDataProvider@a67c67e]" name="TestRunWithDataFromDiffClass" duration-ms="3" started-at="2020-07-31T23:05:00 IST" data-provider="getData001" finished-at="2020-07-31T23:05:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nautiyalm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCase1 -->
-        <test-method status="PASS" signature="TestCase02()[pri:2, instance:com.home.TestNGBasics2@3327bd23]" name="TestCase02" duration-ms="3" started-at="2020-07-26T22:24:56 IST" finished-at="2020-07-26T22:24:56 IST">
+        </test-method> <!-- TestRunWithDataFromDiffClass -->
+        <test-method status="PASS" signature="TestRunWithDataFromDiffClass(java.lang.String, java.lang.String)[pri:0, instance:com.home.TestNgDataProvider@a67c67e]" name="TestRunWithDataFromDiffClass" duration-ms="2" started-at="2020-07-31T23:05:00 IST" data-provider="getData001" finished-at="2020-07-31T23:05:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nRajesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[453]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCase02 -->
-        <test-method status="PASS" signature="TestCase3()[pri:3, instance:com.home.TestNGBasics2@3327bd23]" name="TestCase3" duration-ms="3" started-at="2020-07-26T22:24:56 IST" finished-at="2020-07-26T22:24:56 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase3 -->
-        <test-method status="PASS" signature="TestCase4()[pri:4, instance:com.home.TestNGBasics2@3327bd23]" name="TestCase4" duration-ms="3" started-at="2020-07-26T22:24:56 IST" finished-at="2020-07-26T22:24:56 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase4 -->
-      </class> <!-- com.home.TestNGBasics2 -->
-    </test> <!-- Test NG Tests -->
-  </suite> <!-- TestNG Revisit -->
+        </test-method> <!-- TestRunWithDataFromDiffClass -->
+      </class> <!-- com.home.TestNgDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
